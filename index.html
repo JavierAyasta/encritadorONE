@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">  
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="./CSS/reset.css">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+        rel="stylesheet"> 
+</head>
+<body>
+    <header>
+        <div class="container__header">
+            <div class="header">
+                <a href="https://app.aluracursos.com/user/pjayastacaceres" target="_blank"> 
+                    <img class="logo" src="IMG/Logo.png">
+                </a>                
+            </div>  
+        </div>
+    </header>
+    <main>
+        <article class="container">
+            <section class="left" id="left">
+                <textarea class="inputtextarea" id="textoInput" placeholder="Ingrese el texto aquí" autofocus></textarea>
+                <div class="content_botones">
+                    <span class="info">
+                        <img src="IMG/Signo.png" alt="advertencia" />
+                        Solo letras minúsculas y sin acentos
+                    </span>
+                    <div class="botones">
+                        <button id="button__encriptar" class="button__encriptar">Encriptar</button>
+                        <button id="button__desencriptar" class="button__desencriptar">Desencriptar</button>
+                    </div>
+                </div>
+            </section>
+            <section class="right" id="rigth">
+                <img id="munheco" class="munheco" src="IMG/Muñeco.png" alt="Ningún mensaje fue encontrado. Ingresa el texto que desees encriptar o desencriptar.">
+                <textarea id="textoFinal" class="textoFinal" placeholder="Ningún mensaje fue encontrado"></textarea>
+                <p id="textoInfo" class="info">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="button__copiar bn_ocultar" id="button__copiar">Copiar</button>
+            </section>
+        </article>
+    </main>
+    <footer class="footer ">
+        <p class="creador">Desarrollado por 
+            <a href="https://app.aluracursos.com/user/pjayastacaceres" target="_blank" class="usuario">
+                @pjayastacaceres
+
+            </a>
+        </p>
+        <div>
+            <a href="https://github.com/JavierAyasta" target="_blank">
+                <img class="links" src="./IMG/github.svg" />
+            </a>
+            
+            <a href="https://www.linkedin.com/in/pedro-javier-ayasta-c%C3%A1ceres-424267273/" target="_blank">
+                <img class="links" src="./IMG/linkedin.svg" />
+            </a>
+        </div>
+    </footer>
+    <script src="./JS/script.js"></script>
+</body>
+
+</html>
